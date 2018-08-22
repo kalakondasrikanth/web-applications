@@ -1,0 +1,23 @@
+ul {
+    background: #000000;
+    padding: 20px;
+}
+ul li {
+    background: #D2691E;
+    margin: 5px;
+}
+
+body {
+    background-image: url("../images/gold.jpg");
+    background-color: #cccccc;
+    background-size: 100%;
+    overflow-y: scroll;
+    color: azure;
+
+ 
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+ } 

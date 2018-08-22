@@ -1,0 +1,58 @@
+#boxed 
+{
+    width: 500px;
+    margin: 5em auto;
+    background: #222;
+    padding: 2em;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+body 
+{
+    margin-left:5em;
+    float:left;
+    background-color: #000;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+}
+
+label, input, textarea 
+{ 
+    color: #dedede; /* Colore del testo */
+    float: left; /* Float a sinistra */
+    font-family: Verdana, sans-serif; /* Tipo di carattere per il testo */
+    margin: 10px 0; /* Margini */
+}
+
+label 
+{ 
+    display: block; 
+    line-height: 30px; 
+    width: 150px; 
+}
+ 
+input 
+{ 
+    background: #1C1C1C; 
+    border: 1px solid #323232; 
+    color: #fff; 
+    height: 30px; 
+    line-height: 30px; 
+    width: 300px; 
+    padding: 0 10px;
+}
+
+textarea 
+{ 
+    background: #1C1C1C; 
+    border: 1px solid #323232; 
+    color: #fff; 
+    height: 10em; 
+    line-height: 30px; 
+    width: 300px; 
+    padding: 0 10px; 
+}
