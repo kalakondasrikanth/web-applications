@@ -1,0 +1,23 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# IntelliJ Idea
+*.iml
+.idea/
+
+# Java
+*.class
+target/
+javadoc/
+log/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+### OSX ###
+.DS_Store
+
+SESSIOOOOON.txt
+dbstud.txt

@@ -1,0 +1,71 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600italic,600");
+
+nav 
+{
+	positon: fixed;
+	width: 100%;
+	height: 4.8rem;
+	background: -webkit-linear-gradient(rgba(55, 153,108 , 0.9), rgba(55, 153,108 , 0.9));
+	background: linear-gradient( rgba(55, 153,108 , 0.3), rgba(55, 153,108 , 0.3));
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0rem 0.2rem 1.5rem rgba(255, 255, 255, 0.4);
+	text-align: center;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li:hover > ul 
+{
+	overflow: visible;
+	max-height: 50rem;
+	opacity: 1;
+}
+
+nav ul li:hover > ul li {}
+
+nav ul 
+{
+	margin: 0;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul:after 
+{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li 
+{
+	float: left;
+	height: 4.8rem;
+	line-height: 4.8rem;
+	transition: background 0.3s ease;
+}
+
+nav ul li:hover 
+{
+	background: rgba(55, 153,108 , 0.7);
+}
+
+nav ul li:hover > a 
+{
+	color: #fff;
+}
+
+nav ul li a 
+{
+	display: block;
+	padding: 0 3.5rem;
+	color: #f7f8f9;
+	text-decoration: none;
+	font-weight: bold;
+}
